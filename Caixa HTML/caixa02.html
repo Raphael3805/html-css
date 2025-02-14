@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+        margin: 0px;
+    }
+
+    header {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    h1{
+        box-shadow: inset 2px 1px 14px rgba(0, 0, 0, 0.5);
+    }
+
+    nav {
+        background-color: rgb(136, 135, 135);
+        padding: 3px;
+        box-shadow: 3px 3px 2px rgba(0, 0 ,0, 466);
+    }
+
+    nav > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin: 30px;
+    }
+
+    nav > a:houver {
+        text-decoration: underline;
+        box-shadow: 3px 3px 3px black
+
+    }
+
+    main{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px 0px ;
+        box-shadow: 4px 4px 9px 0px black;
+    }
+    article {
+        background-color: rgb(185, 182, 182);
+    }
+
+    footer {
+        background-color: black;
+        color: wheat;
+        text-align: center;
+        padding: 1px;
+        margin: 0px;
+    }
+
+    div#bola {
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        background-color: beige;
+        border-radius: 50%;
+    }
+
+    footer > p{
+        margin: 0px;
+    }
+</style>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+        <a href="#">Início</a>
+        <a href="#">Notícias</a>
+        <a href="#">Esportes</a>
+        <a href="#">Tecnologia</a>
+        <a href="#">Ajuda</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <select id="assuntos">
+            <p>Esportes, Notícias e Tecnologia</p>
+        </select>
+        
+        <section id="notícias">
+
+            <article>
+                <h2> Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut perferendis voluptatum, recusandae cum quaerat dolore nesciunt, repellendus quae neque rerum facere ullam quibusdam magni dolorum a iure id? Doloremque, quasi?</p>
+                <aside>
+                    <p>Artigo escrito por Raphael Gomes Gondim</p>
+
+                </aside>
+            </article>
+
+            <article>
+                <h2>Notícias sobre o Mundo</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ut amet nulla! Consequuntur doloribus fugiat rem. Voluptatum fuga illum, optio in eaque numquam debitis error soluta a necessitatibus id tenetur.</p>
+            </article>
+            
+        </section>
+            
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo curso em Vídeo.</p>
+    </footer>
+
+    <div id="bola"></div>
+</body>
+</html>
